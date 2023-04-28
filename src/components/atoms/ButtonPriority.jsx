@@ -1,6 +1,6 @@
 import { capsLetter } from '@/libs/capsLetter'
-import { setModalForm } from '@/redux/actions/modalFormAction'
 
+import { setModalForm } from '../redux/actions/modalFormAction'
 import Indicator from './Indicator'
 import ChevronDown from './icons/ChevronDown'
 

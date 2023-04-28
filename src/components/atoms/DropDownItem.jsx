@@ -1,5 +1,4 @@
-import { setModalForm } from '@/redux/actions/modalFormAction'
-
+import { setModalForm } from '../redux/actions/modalFormAction'
 import Indicator from './Indicator'
 
 import { memo, useCallback } from 'react'

@@ -1,5 +1,4 @@
-import { setModalForm } from '@/redux/actions/modalFormAction'
-
+import { setModalForm } from '../redux/actions/modalFormAction'
 import Eks from './icons/Eks'
 
 import { memo } from 'react'

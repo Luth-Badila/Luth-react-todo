@@ -2,8 +2,9 @@ import Button from '@/components/atoms/Button'
 import FormHeader from '@/components/atoms/FormHeader'
 
 import { doGet, doPatch, doPost } from '@/libs/doFetch'
-import { setModalForm } from '@/redux/actions/modalFormAction'
 import { setSelectedActivity } from '@/redux/actions/selectedActivityAction'
+
+import { setModalForm } from '../redux/actions/modalFormAction'
 
 import { Suspense, lazy, memo } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
